@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.556b163a.css",
-    "main.js": "/static/js/main.e70f6351.js",
-    "static/js/787.3f5b2ba5.chunk.js": "/static/js/787.3f5b2ba5.chunk.js",
-    "index.html": "/index.html",
-    "main.556b163a.css.map": "/static/css/main.556b163a.css.map",
-    "main.e70f6351.js.map": "/static/js/main.e70f6351.js.map",
-    "787.3f5b2ba5.chunk.js.map": "/static/js/787.3f5b2ba5.chunk.js.map"
+    "main.css": "/PronCan/PronCan/static/css/main.556b163a.css",
+    "main.js": "/PronCan/PronCan/static/js/main.48baafdc.js",
+    "static/js/787.3f5b2ba5.chunk.js": "/PronCan/PronCan/static/js/787.3f5b2ba5.chunk.js",
+    "index.html": "/PronCan/PronCan/index.html",
+    "main.556b163a.css.map": "/PronCan/PronCan/static/css/main.556b163a.css.map",
+    "main.48baafdc.js.map": "/PronCan/PronCan/static/js/main.48baafdc.js.map",
+    "787.3f5b2ba5.chunk.js.map": "/PronCan/PronCan/static/js/787.3f5b2ba5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.556b163a.css",
-    "static/js/main.e70f6351.js"
+    "static/js/main.48baafdc.js"
   ]
 }
