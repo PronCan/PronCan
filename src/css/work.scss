@@ -1,0 +1,179 @@
+@import "./value.scss";
+
+@include mobile {
+    .wrap_work {
+        padding: 5px;
+        padding-top: 12%;
+        display: flex;
+        background-color: #5ca0ff;
+        // height: 100vh;
+        height: auto;
+        // background-color: #333;
+    }
+    
+    .grid_container {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 5px;
+        column-gap: 5px;
+        justify-items: stretch;
+        align-self: stretch;
+    }
+    
+    .wrap_grid_item {
+        position: relative;
+        &:hover .grid_item_title {
+            display: flex;
+        }
+    }
+    
+    .grid_item {
+        border: 1px solid #666;
+        // 임시
+        background-color: #ccc;
+        min-height: 250px;
+        z-index: 0;
+        position: relative;
+        transition: 0.5s;
+        &:hover {
+            -webkit-filter: brightness(.5);
+            filter: brightness(.5);
+            cursor: pointer;
+            transition: 0.5s;
+        }
+    }
+    
+    .grid_item_title {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        z-index: 5;
+        display: none;
+        transition: 0.5s;
+    }
+}
+
+@include tablet {
+    .wrap_work {
+        justify-content: space-evenly;
+        padding: 5px;
+        margin-left: 23%;
+        display: flex;
+        width: 77%;
+        background-color: #5ca0ff;
+        // height: 100vh;
+        height: auto;
+        // background-color: #333;
+    }
+    
+    .grid_container {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 5px;
+        column-gap: 5px;
+        justify-items: stretch;
+        align-self: stretch;
+    }
+    
+    .wrap_grid_item {
+        position: relative;
+        &:hover .grid_item_title {
+            display: flex;
+        }
+    }
+    
+    .grid_item {
+        border: 1px solid #666;
+        // 임시
+        background-color: #ccc;
+        min-height: 250px;
+        z-index: 0;
+        position: relative;
+        transition: 0.5s;
+        &:hover {
+            -webkit-filter: brightness(.5);
+            filter: brightness(.5);
+            cursor: pointer;
+            transition: 0.5s;
+        }
+    }
+    
+    .grid_item_title {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        z-index: 5;
+        display: none;
+        transition: 0.5s;
+    }
+}
+
+@include desktop {
+    .wrap_work {
+        justify-content: space-evenly;
+        padding: 5px;
+        margin-left: 23%;
+        display: flex;
+        width: 77%;
+        background-color: #5ca0ff;
+        // height: 100vh;
+        height: auto;
+        // background-color: #333;
+    }
+    
+    .grid_container {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 5px;
+        column-gap: 5px;
+        justify-items: stretch;
+        align-self: stretch;
+    }
+    
+    .wrap_grid_item {
+        position: relative;
+        &:hover .grid_item_title {
+            display: flex;
+        }
+    }
+    
+    .grid_item {
+        border: 1px solid #666;
+        // 임시
+        background-color: #ccc;
+        min-height: 250px;
+        z-index: 0;
+        position: relative;
+        transition: 0.5s;
+        &:hover {
+            -webkit-filter: brightness(.5);
+            filter: brightness(.5);
+            cursor: pointer;
+            transition: 0.5s;
+        }
+    }
+    
+    .grid_item_title {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        z-index: 5;
+        display: none;
+        transition: 0.5s;
+    }
+}

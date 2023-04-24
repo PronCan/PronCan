@@ -1,0 +1,67 @@
+{
+    "info": {
+        "name": "이은진",
+        "email": "leeproej@gmail.com",
+        "github": "proncan",
+        "edu": [
+            {
+                "title": "ㅅㄹㅇㄱ",
+                "years": "2014. 03 - 2017. 02"
+            },
+            {
+                "title": "ㅎㅈㅇㅎㅈ ㅋㅍㅌㄱㅎ",
+                "years": "2019. 09 - "
+            }
+        ],
+        "career": [
+            
+        ],
+        "cert": "",
+        "src": "http://proncan.ipdisk.co.kr:8000/list/HDD1/proncan/portfolio/profile_photo.jpg"
+    },
+    "skill": [
+        {
+            "name": "HTML5",
+            "src": "/icon/icon_html.png",
+            "alt": "HTML 표준 마크업을 이용한 페이지 구성"
+        },
+        {
+            "name": "CSS",
+            "src": "/icon/icon_html.png",
+            "alt": "깔끔한 CSS 구현 가능"
+        },
+        {
+            "name": "CSS",
+            "src": "/icon/icon_html.png",
+            "alt": ""
+        },
+        {
+            "name": "CSS",
+            "src": "/icon/icon_html.png",
+            "alt": ""
+        },
+        {
+            "name": "CSS",
+            "src": "/icon/icon_html.png",
+            "alt": ""
+        },
+        {
+            "name": "CSS",
+            "src": "/icon/icon_html.png",
+            "alt": ""
+        },
+        {
+            "name": "CSS",
+            "src": "/icon/icon_html.png",
+            "alt": ""
+        },
+        {
+            "name": "CSS",
+            "src": "/icon/icon_html.png",
+            "alt": ""
+        }
+    ],
+    "project": {
+
+    }
+}

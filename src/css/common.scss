@@ -1,0 +1,204 @@
+@import "./value.scss";
+
+@font-face {
+    font-family: 'PyeongChang-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChang-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+html, body, pre {
+    font-family: 'Roboto Mono', "PyeongChang-Bold", monospace;
+    ::selection {
+        background-color: #217af4;
+        color: #d4e8ff;
+    }
+    ::-webkit-scrollbar {
+        width: 7px;
+    }
+    ::-webkit-scrollbar-thumb {
+        height: 30%; /* 스크롤바의 길이 */
+        background: #217af4; /* 스크롤바의 색상 */
+        
+        border-radius: 10px;
+    }
+    ::-webkit-scrollbar-track {
+        background: rgba(33, 122, 244, .1);  /*스크롤바 뒷 배경 색상*/
+    }
+}
+
+
+@include mobile {
+    pre {
+        font-size: 0.9rem;
+        white-space: pre-wrap;
+    }
+    
+    a:hover {
+        text-decoration: none;
+    }
+    
+    .wrap_logo {
+        display: flex;
+        a {
+            display: flex;
+            &:hover {
+                background-color: #7FBAFF;
+            }
+        }
+        position: absolute;
+        top: 30px;
+        color: #276ACE;
+        h1 {
+            display: flex;
+            align-items: center;
+            margin-left: 1rem;
+        }
+    }
+    .logo {
+        width: 40px;
+        height: 40px;
+    }
+    .wrap_footer {
+        position: absolute;
+        display: flex;
+        bottom: 250px;
+        width: 50vw;
+        // justify-content: center;
+        color: #666;
+        font-size: 0.8rem;
+    }
+    
+    .active_menu {
+        a {color: #fff !important;}
+        background-color: #276ACE;
+    }
+    
+    .sub_title_mini {
+        font-size: 10px;
+        color: #666;
+    }
+}
+
+@include tablet {
+    pre {
+        font-size: 0.9rem;
+        white-space: pre-wrap;
+    }
+    
+    a:hover {
+        text-decoration: none;
+    }
+    
+    .wrap_logo {
+        display: flex;
+        a {
+            display: flex;
+            &:hover {
+                background-color: #7FBAFF;
+            }
+        }
+        position: absolute;
+        top: 70px;
+        left: 2rem;
+        color: #276ACE;
+        h1 {
+            display: flex;
+            align-items: center;
+            margin-left: 1rem;
+            font-size: 1.8rem;
+        }
+    }
+    .logo {
+        width: 40px;
+        height: 40px;
+    }
+    .wrap_footer {
+        position: absolute;
+        display: flex;
+        bottom: 70px;
+        left: 2rem;
+        width: 50vw;
+        color: #666;
+        font-size: 0.8rem;
+    }
+    
+    .active_menu {
+        color: #276ACE !important;
+        &::after{
+            content: "";
+            display: block;
+            background-color: #276ACE;
+            width: 100%;
+            height: 2px;
+            // transform: translateY(-8px);
+        }
+    }
+    
+    .sub_title_mini {
+        font-size: 10px;
+        color: #666;
+    }
+}
+
+@include desktop {
+    pre {
+        font-size: 0.9rem;
+        white-space: pre-wrap;
+    }
+    
+    a:hover {
+        text-decoration: none;
+    }
+    
+    .wrap_logo {
+        display: flex;
+        a {
+            display: flex;
+            &:hover {
+                background-color: #7FBAFF;
+            }
+        }
+        position: absolute;
+        top: 70px;
+        left: 100px;
+        color: #276ACE;
+        h1 {
+            display: flex;
+            align-items: center;
+            margin-left: 1rem;
+        }
+    }
+    .logo {
+        width: 40px;
+        height: 40px;
+    }
+    .wrap_footer {
+        position: absolute;
+        display: flex;
+        bottom: 70px;
+        left: 100px;
+        width: 50vw;
+        // justify-content: center;
+        color: #666;
+        font-size: 0.8rem;
+    }
+    
+    .active_menu {
+        color: #276ACE !important;
+        &::after{
+            content: "";
+            display: block;
+            background-color: #276ACE;
+            width: 100%;
+            height: 2px;
+            // transform: translateY(-8px);
+        }
+    }
+    
+    .sub_title_mini {
+        font-size: 10px;
+        color: #666;
+    }
+}
